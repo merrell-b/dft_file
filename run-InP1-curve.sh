@@ -49,7 +49,7 @@ ATOMIC_SPECIES
    In 114.818 'In1.upf'
    P 30.973762 'P1.upf'
 ATOMIC_POSITIONS crystal
-   P -0.125 -0.125 -0.125
+   P -$i -$i -$i
    In $i $i $i
 K_POINTS crystal
    22
