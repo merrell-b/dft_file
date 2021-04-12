@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=molecular_h2
+#SBATCH --job-name=InP_1
 #SBATCH --account=ic_phys190
 #SBATCH --partition=savio2
 #SBATCH --nodes=1
