@@ -28,7 +28,7 @@ cat <<! > InP1.$i.in
     ibrav=  1,
 	celldm(1) =20,
 	nat=  2,
-	ntyp= 1,
+	ntyp= 2,
     ecutwfc = 50
  /
 &electrons
