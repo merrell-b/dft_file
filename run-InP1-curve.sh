@@ -13,7 +13,7 @@ module load quantumespresso/6.3
 
 for i in 0.03 0.05 0.06 0.07 0.08 0.09 0.10 0.11 0.13 0.15 0.17 0.25 0.30 0.35; do
 
-cat <<! > InP.$i.in
+cat <<! > InP1.$i.in
  &control
     calculation = 'scf'
     verbosity='high'
