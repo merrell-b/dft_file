@@ -1,0 +1,46 @@
+&control
+   prefix = 'InP'
+   pseudo_dir = '.'
+   calculation = 'bands'
+/
+&system
+   ecutwfc = 135.0
+   ibrav = 0
+   nat = 2
+   ntyp = 2
+   input_dft = 'pbe'
+   nbnd = 10
+/
+&electrons
+   electron_maxstep = 100
+   conv_thr = 1e-08
+   mixing_mode = 'plain'
+   mixing_beta = 0.7
+   mixing_ndim = 8
+   diagonalization = 'david'
+   diago_david_ndim = 4
+   diago_full_acc = .true.
+/
+CELL_PARAMETERS angstrom
+   0.0 2.93435 2.93435
+   2.93435 0.0 2.93435
+   2.93435 2.93435 0.0
+ATOMIC_SPECIES 
+   In 114.818 'In1.upf'
+   P 30.973762 'P1.upf'
+ATOMIC_POSITIONS crystal
+   P -0.125 -0.125 -0.125
+   In 0.125 0.125 0.125
+K_POINTS
+   11
+   0.00 0.00 0.00 30 !G
+   0.50 0.00 0.50 30 !X
+   0.50 0.25 0.75 30 !W
+   0.375 0.375 0.74 30 !K
+   0.00 0.00 0.00 30 !G
+   0.50 0.50 0.50 30 !L
+   0.625 0.25 0.625 30 !U
+   0.50 0.25 0.75 30 !W
+   0.50 0.50 0.50 30 !L
+   0.375 0.375 0.74 30 !K|U
+   0.50 0.00 0.50 30 !X
