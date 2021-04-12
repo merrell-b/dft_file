@@ -1,6 +1,6 @@
 &control
    prefix = 'InP'
-   pseudo_dir = '/home1/06969/tg862689/pseudos/PBE/stringent/FR/'
+   pseudo_dir = '.'
    calculation = 'scf'
 /
 &system
