@@ -7,9 +7,9 @@
 #SBATCH --time=05:00:00
 #SBATCH --output=array_job.out
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=jbneaton@berkeley.edu
+#SBATCH --mail-user=mbrzeczek@berkeley.edu
 
 module load quantumespresso/6.3
 
-pw.x < H2.in > H2.out
+pw.x < InP1.in > InP1.out
 
