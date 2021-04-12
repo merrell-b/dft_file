@@ -4,7 +4,7 @@
 #SBATCH --partition=savio2
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=15
-#SBATCH --time=00:10:00
+#SBATCH --time=00:25:00
 #SBATCH --output=array_job.out
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=mbrzeczek@berkeley.edu
