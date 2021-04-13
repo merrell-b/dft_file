@@ -1,5 +1,5 @@
 &BANDS
  outdir='.',
- prefix='basic',
+ prefix='InP',
  filband='InPbands2.dat',
 /
