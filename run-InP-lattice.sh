@@ -87,6 +87,6 @@ K_POINTS crystal
    0.166666667 0.5 0.666666667 12.0
 !
 
-pw.x < InP1.$i.in > InP1.$i.out
+pw.x < InP1lattice.$i.in > InP1lattice.$i.out
 
 done
